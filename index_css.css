@@ -6,68 +6,143 @@
        url('"font/TaipeiSansTCBeta-Regular.ttf"') format("truetype"),
        url('"font/TaipeiSansTCBeta-Regular.eot"') format("embedded-opentype");
 }
-.header{
-	padding: 0px;
-	width: 100%;
-	height: 150px;
-	background: #777777;
-	margin: 0 auto;
-}
-.header t1{
-	font-size: 60px;
-	line-height: 150px;
-	width: 50%;
-	float:left;
-	font-family: 'TaipeiSans';
-	color: #FFFFFF;
-	font-weight: bold;
-}
+/*For 手機*/
+@media only screen and (max-width: 768px){
+	.header{
+		padding: 0px;
+		width: 100%;
+		height: 172px;
+		background: #777777;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.header t1{
+		font-size: 30px;
+		line-height: 70px;
+		width: 50%;
+		font-family: 'TaipeiSans';
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+	.header a{
+		padding: 0px;
+		width: 100%;
+		height: 25px;
+		line-height: 25px;/*字體上下置中*/
+		font-size: 25px;
+		background: #929292;
+		float: inherit;
+		text-align:center;/*字體水平置中*/
+		font-family: 'TaipeiSans';
+		color: #DFDFDF;
+		display: block;/*判定範圍為整個框*/
+		outline: none;/*隱藏點擊虛線*/
+		text-decoration:none;
+	}
+	.header a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		background: #4A4A4A;
+		transition: all 0.25s linear;
+	}
+	.body {
+		width: 100%;
+		height: 400px;
+		background: #E0E0E0;	
+		text-align: center;
+	}
+	.body left{
+		width: 50%;
+		height: 10%;
+		font-size: 25px;
 
-.header a{
-	padding: 0px;
-	width: 9%;
-	height: 150px;
-	line-height: 150px;/*字體上下置中*/
-	font-size: 25px;
-	float: left;
-	text-align:center;/*字體水平置中*/
-	font-family: 'TaipeiSans';
-	color: #DFDFDF;
-	display: block;/*判定範圍為整個框*/
-	outline: none;/*隱藏點擊虛線*/
-	text-decoration:none;
+	}
+	.body t2{
+		color: #3C906F;
+		line-height: 60px;
+		
+	}
+	.body right{
+		padding: 0px;
+		width:400px;
+		height:300px;
+	}
+	.body img{
+		width:400px ;
+		height:300px;
+		line-height: 400px;
+	}
+	.bottom{
+		height: 40px;
+		text-align:center;
+		line-height: 80px;
+		font-size: 20px;
+	}
 }
-.header a:hover {
-	text-decoration:none;
-	color: #E7D36E;
-	background: #4A4A4A;
-	transition: all 0.25s linear;
-}
-.body {
-	width: 100%;
-	height: 100%;
-	float: left;
-	background: #E0E0E0;
-}
-.body left{
-	width: 50%;
-	height: 100%;
-	float:left;
-	font-size: 50px;
-	text-align: center;
-}
-.body t2{
-	color: #3C906F;
-	line-height: 500px;
-}
-.body right{
-	padding: 0px;
-	width: 50%;
-	float: right;
-}
-.bottom{
-	height: auto;
-	text-align:center;
-	line-height: 120px;
-	font-size: 20px;
+@media only screen and (min-width: 769px){
+	.header{
+		padding: 0px;
+		width: 100%;
+		height: 150px;
+		background: #777777;
+		margin: 0 auto;
+	}
+	.header t1{
+		font-size: 60px;
+		line-height: 150px;
+		width: 50%;
+		float:left;
+		font-family: 'TaipeiSans';
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+
+	.header a{
+		padding: 0px;
+		width: 9%;
+		height: 150px;
+		line-height: 150px;/*字體上下置中*/
+		font-size: 25px;
+		float: left;
+		text-align:center;/*字體水平置中*/
+		font-family: 'TaipeiSans';
+		color: #DFDFDF;
+		display: block;/*判定範圍為整個框*/
+		outline: none;/*隱藏點擊虛線*/
+		text-decoration:none;
+	}
+	.header a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		background: #4A4A4A;
+		transition: all 0.25s linear;
+	}
+	.body {
+		width: 100%;
+		height: 100%;
+		float: left;
+		background: #E0E0E0;
+	}
+	.body left{
+		width: 50%;
+		height: 100%;
+		float:left;
+		font-size: 50px;
+		text-align: center;
+	}
+	.body t2{
+		color: #3C906F;
+		line-height: 500px;
+	}
+	.body right{
+		padding: 0px;
+		width: 50%;
+		float: right;
+	}
+	.bottom{
+		height: auto;
+		text-align:center;
+		line-height: 120px;
+		font-size: 20px;
+	}
 }
