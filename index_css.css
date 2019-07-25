@@ -25,10 +25,10 @@
 
 .header a{
 	padding: 0px;
-	width: 10%;
+	width: 9%;
 	height: 150px;
 	line-height: 150px;/*字體上下置中*/
-	font-size: 20px;
+	font-size: 25px;
 	float: left;
 	text-align:center;/*字體水平置中*/
 	font-family: 'TaipeiSans';
