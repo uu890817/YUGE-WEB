@@ -2,9 +2,9 @@
 /*新增台北黑體*/
 @font-face {
   font-family: 'TaipeiSans';
-  src: url('/"font/TaipeiSansTCBeta-Regular.woff"') format("woff"),
-       url('/font/TaipeiSansTCBeta-Regular.ttf') format("truetype"),
-       url('/font/TaipeiSansTCBeta-Regular.eot') format("embedded-opentype");
+  src: url('"../font/TaipeiSansTCBeta-Regular.woff"') format("woff"),
+       url('"../font/TaipeiSansTCBeta-Regular.ttf"') format("truetype"),
+       url('"../font/TaipeiSansTCBeta-Regular.eot"') format("embedded-opentype");
 }
 .header{
 	padding: 0px;
