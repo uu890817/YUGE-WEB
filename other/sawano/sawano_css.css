@@ -6,38 +6,246 @@
        url('"../../font/TaipeiSansTCBeta-Regular.ttf"') format("truetype"),
        url('"../../font/TaipeiSansTCBeta-Regular.eot"') format("embedded-opentype");
 }
-.header{
-	background: #D9DEF3;
-	font-family: 'TaipeiSans';
-	width: 100%;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	font-size: 50px;
-	color: #080116;
+/*For 手機*/
+@media only screen and (max-width: 1024px){
+	.header{
+		background: #D9DEF3;
+		font-family: 'TaipeiSans';
+		width: 100%;
+		height: 90px;
+		line-height: 90px;
+		text-align: center;
+		font-size: 30px;
+		color: #080116;
+	}
+	.dbody1 {
+		width: 100%;
+		height: 1150px;
+		text-align: center;
+
+	}
+	.dbody1 a{
+		text-align: center;
+		width: 50%;
+		height: 280px;
+		float: left;
+		display: inline-block;
+		outline: none;
+		display: block;/*判定範圍為整個框*/
+		text-decoration:none;
+		color: #000000
+	}
+	.dbody1 a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		transition: all 0.2s linear;
+	}
+	.dbody1 img{
+		padding-top:10px;
+	}
+	.title1{
+		text-align: center;
+		font-family: "TaipeiSans";
+		margin-top: 30px;
+		font-size: 30px;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		border-radius: 10px 10px 0px 0px;
+		background: #8F89CD;
+	}
+	.title2{
+		text-align: center;
+		font-family: "TaipeiSans";
+		font-size: 30px;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		border-radius: 10px 10px 0px 0px;
+		background: #B189CD;
+	}
+	.dbody2{
+		width: 100%;
+		height: 1200px;
+		text-align: center;
+
+	}
+	.dbody2 a{
+		text-align: center;
+		width: 50%;
+		height: 290px;
+		float: left;
+		display: inline-block;
+		outline: none;
+		display: block;/*判定範圍為整個框*/
+		text-decoration:none;
+		color: #000000
+	}
+	.dbody2 a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		transition: all 0.2s linear;
+	}
+	.dbody2 img{
+		padding-top:10px;
+	}
+	.title3{
+		text-align: center;
+		font-family: "TaipeiSans";
+		font-size: 30px;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		border-radius: 10px 10px 0px 0px;
+		background: #89CDB8;
+	}
+	.dbody3{
+		width: 100%;
+		height: auto;
+		text-align: center;
+
+	}
+	.dbody3 a{
+		text-align: center;
+		width: 50%;
+		height: 280px;
+		float: left;
+		display: inline-block;
+		outline: none;
+		display: block;/*判定範圍為整個框*/
+		text-decoration:none;
+		color: #000000
+	}
+	.dbody3 a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		transition: all 0.2s linear;
+	}
+	.dbody3 img{
+		padding-top:10px;
+	}
 }
-.dbody{
-	width: 100%;
-	height: 250px;
-	text-align: center;
-	
-}
-.dbody a{
-	text-align: center;
-	width: 25%;
-	height: 250px;
-	float: left;
-	display: inline-block;
-	outline: none;
-	display: block;/*判定範圍為整個框*/
-	text-decoration:none;
-	color: #000000
-}
-.dbody a:hover {
-	text-decoration:none;
-	color: #E7D36E;
-	transition: all 0.2s linear;
-}
-.dbody img{
-	padding-top:10px;
+@media only screen and (min-width: 1025px){
+	.header{
+		background: #D9DEF3;
+		font-family: 'TaipeiSans';
+		width: 100%;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+		font-size: 50px;
+		color: #080116;
+	}
+	.dbody1 {
+		width: 100%;
+		height: 550px;
+		text-align: center;
+
+	}
+	.dbody1 a{
+		text-align: center;
+		width: 25%;
+		height: 260px;
+		float: left;
+		display: inline-block;
+		outline: none;
+		display: block;/*判定範圍為整個框*/
+		text-decoration:none;
+		color: #000000
+	}
+	.dbody1 a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		transition: all 0.2s linear;
+	}
+	.dbody1 img{
+		padding-top:10px;
+	}
+	.title1{
+		text-align: center;
+		font-family: "TaipeiSans";
+		margin-top: 30px;
+		font-size: 30px;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		border-radius: 10px 10px 0px 0px;
+		background: #8F89CD;
+	}
+	.title2{
+		text-align: center;
+		font-family: "TaipeiSans";
+		font-size: 30px;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		border-radius: 10px 10px 0px 0px;
+		background: #B189CD;
+	}
+	.dbody2{
+		width: 100%;
+		height: 550px;
+		text-align: center;
+
+	}
+	.dbody2 a{
+		text-align: center;
+		width: 25%;
+		height: 260px;
+		float: left;
+		display: inline-block;
+		outline: none;
+		display: block;/*判定範圍為整個框*/
+		text-decoration:none;
+		color: #000000
+	}
+	.dbody2 a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		transition: all 0.2s linear;
+	}
+	.dbody2 img{
+		padding-top:10px;
+	}
+	.title3{
+		text-align: center;
+		font-family: "TaipeiSans";
+		font-size: 30px;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		border-radius: 10px 10px 0px 0px;
+		background: #89CDB8;
+	}
+	.dbody3{
+		width: 100%;
+		height: 250px;
+		text-align: center;
+
+	}
+	.dbody3 a{
+		text-align: center;
+		width: 25%;
+		height: 260px;
+		float: left;
+		display: inline-block;
+		outline: none;
+		display: block;/*判定範圍為整個框*/
+		text-decoration:none;
+		color: #000000
+	}
+	.dbody3 a:hover {
+		text-decoration:none;
+		color: #E7D36E;
+		transition: all 0.2s linear;
+	}
+	.dbody3 img{
+		padding-top:10px;
+	}
 }
